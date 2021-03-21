@@ -1,4 +1,4 @@
-const {prefix} = require('../Config.json');
+const {prefix} = require('../config/config.json');
 
 module.exports = (client) => {
     console.log('Ready');
