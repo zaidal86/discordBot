@@ -3,6 +3,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const {discord} = require('./config/tokens.json');
 const {prefix} = require('./config/config.json');
+const app = require('./dashboard/server.js');
 
 client.commands = new Discord.Collection();
 
